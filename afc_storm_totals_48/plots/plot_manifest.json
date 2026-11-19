@@ -1,0 +1,734 @@
+{
+  "settings": {
+    "comparisons": "C:\\Users\\David.Levin\\snowfall_verification\\afc_storm_totals_48\\comparisons.csv",
+    "individual": true,
+    "rows_per_page": 10,
+    "extent": [
+      -150.3,
+      -149.2,
+      60.8,
+      61.6
+    ],
+    "labels": false,
+    "stations": null,
+    "report_ids": null,
+    "map_percentile": null,
+    "map_percentiles": null,
+    "map_view": "Anchorage",
+    "error_colors": {
+      "colormap": "RdBu_r",
+      "boundaries": [
+        -10.0,
+        -6.0,
+        -3.0,
+        -1.0,
+        1.0,
+        3.0,
+        6.0,
+        10.0
+      ]
+    },
+    "formats": [
+      "png"
+    ],
+    "title": "Snowfall event verification",
+    "error_limit": null
+  },
+  "warnings": [
+    "QC'ed storm totals are compared with explicitly selected forecast windows. Observation accumulation boundaries are unspecified; report valid dates are not treated as accumulation endpoints.",
+    "Triangles on maps/scatterplots represent snow-depth change, not a direct new-snow measurement.",
+    "Maps use report coordinates. Nearby archive-point distances are listed in individual report graphics.",
+    "Map view: Anchorage. Zoom changes the map view only; charts and percentile statistics still use all selected reports, and map colors retain the configured range. Filter stations/reports to change the verification sample.",
+    "No NBM percentile comparisons are present in this CSV. Check the NBM source columns and --nbm-init, then rerun verification."
+  ],
+  "graphics": [
+    {
+      "kind": "overview",
+      "caption": "Station comparison page 1",
+      "report_id": "",
+      "files": [
+        "station_comparison_001.png"
+      ]
+    },
+    {
+      "kind": "overview",
+      "caption": "Station comparison page 2",
+      "report_id": "",
+      "files": [
+        "station_comparison_002.png"
+      ]
+    },
+    {
+      "kind": "overview",
+      "caption": "Station comparison page 3",
+      "report_id": "",
+      "files": [
+        "station_comparison_003.png"
+      ]
+    },
+    {
+      "kind": "overview",
+      "caption": "Station comparison page 4",
+      "report_id": "",
+      "files": [
+        "station_comparison_004.png"
+      ]
+    },
+    {
+      "kind": "overview",
+      "caption": "Station comparison page 5",
+      "report_id": "",
+      "files": [
+        "station_comparison_005.png"
+      ]
+    },
+    {
+      "kind": "overview",
+      "caption": "Station comparison page 6",
+      "report_id": "",
+      "files": [
+        "station_comparison_006.png"
+      ]
+    },
+    {
+      "kind": "overview",
+      "caption": "Station comparison page 7",
+      "report_id": "",
+      "files": [
+        "station_comparison_007.png"
+      ]
+    },
+    {
+      "kind": "overview",
+      "caption": "Station comparison page 8",
+      "report_id": "",
+      "files": [
+        "station_comparison_008.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "MFBA2",
+      "report_id": "R0050",
+      "files": [
+        "stations/R0050_MFBA2_9ae9598f_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "LKCA2",
+      "report_id": "R0048",
+      "files": [
+        "stations/R0048_LKCA2_d494af3f_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "AYMA2",
+      "report_id": "R0028",
+      "files": [
+        "stations/R0028_AYMA2_e1b95461_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "EXGA2",
+      "report_id": "R0037",
+      "files": [
+        "stations/R0037_EXGA2_e7957031_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "TNCA2",
+      "report_id": "R0076",
+      "files": [
+        "stations/R0076_TNCA2_35526b78_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "GRVA2",
+      "report_id": "R0042",
+      "files": [
+        "stations/R0042_GRVA2_ffed325f_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "SHDA2",
+      "report_id": "R0066",
+      "files": [
+        "stations/R0066_SHDA2_f1945394_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "GCRA2",
+      "report_id": "R0041",
+      "files": [
+        "stations/R0041_GCRA2_f882330f_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "NUKA2",
+      "report_id": "R0055",
+      "files": [
+        "stations/R0055_NUKA2_0911a8d8_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "CORA2",
+      "report_id": "R0032",
+      "files": [
+        "stations/R0032_CORA2_e2a00333_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "RRPA2",
+      "report_id": "R0063",
+      "files": [
+        "stations/R0063_RRPA2_cc11a4b5_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "YESA2",
+      "report_id": "R0081",
+      "files": [
+        "stations/R0081_YESA2_450548bc_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "MCNA2",
+      "report_id": "R0049",
+      "files": [
+        "stations/R0049_MCNA2_e300450c_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "TUGA2",
+      "report_id": "R0078",
+      "files": [
+        "stations/R0078_TUGA2_3b31f230_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "Anchorage (Tudor)",
+      "report_id": "R0009",
+      "files": [
+        "stations/R0009_Anchorage_Tudor_d7969c3d_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "ARDA2",
+      "report_id": "R0026",
+      "files": [
+        "stations/R0026_ARDA2_9b614c46_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "AYBA2",
+      "report_id": "R0027",
+      "files": [
+        "stations/R0027_AYBA2_0f995c5a_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "AYTA2",
+      "report_id": "R0029",
+      "files": [
+        "stations/R0029_AYTA2_3c35df70_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "PIMA2",
+      "report_id": "R0059",
+      "files": [
+        "stations/R0059_PIMA2_bb34efc4_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "SUUA2",
+      "report_id": "R0072",
+      "files": [
+        "stations/R0072_SUUA2_8b517d9b_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "CONA2",
+      "report_id": "R0031",
+      "files": [
+        "stations/R0031_CONA2_6c15211d_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "Anchorage (Potter Valle",
+      "report_id": "R0010",
+      "files": [
+        "stations/R0010_Anchorage_Potter_Valle_2f2eb239_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": " Soldotna 2.3 ESE",
+      "report_id": "R0019",
+      "files": [
+        "stations/R0019__Soldotna_2_3_ESE_9a881d94_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "Anchorage (Hillside Eas",
+      "report_id": "R0008",
+      "files": [
+        "stations/R0008_Anchorage_Hillside_Eas_8d045861_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "Anchorage (Strawberry R",
+      "report_id": "R0003",
+      "files": [
+        "stations/R0003_Anchorage_Strawberry_R_383e0ac2_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": " Anchorage 4.7 SSW",
+      "report_id": "R0017",
+      "files": [
+        "stations/R0017__Anchorage_4_7_SSW_5652a68a_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "HILA2",
+      "report_id": "R0045",
+      "files": [
+        "stations/R0045_HILA2_1caee0d5_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "INPA2",
+      "report_id": "R0046",
+      "files": [
+        "stations/R0046_INPA2_62e9a2e0_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": " Anchorage 4.5 E",
+      "report_id": "R0016",
+      "files": [
+        "stations/R0016__Anchorage_4_5_E_b5665e5d_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "6930 Sand Lake Road Anc",
+      "report_id": "R0006",
+      "files": [
+        "stations/R0006_6930_Sand_Lake_Road_Anc_817ffb6a_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "ANCHORAGE FORECAST OFFICE",
+      "report_id": "R0013",
+      "files": [
+        "stations/R0013_ANCHORAGE_FORECAST_OFFICE_b80285af_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "STERLING 6SW",
+      "report_id": "R0014",
+      "files": [
+        "stations/R0014_STERLING_6SW_3a4ee5ed_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "Soldotna (Marcus St)",
+      "report_id": "R0004",
+      "files": [
+        "stations/R0004_Soldotna_Marcus_St_f4ad8446_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "3 NE Girdwood",
+      "report_id": "R0012",
+      "files": [
+        "stations/R0012_3_NE_Girdwood_9cfe232e_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "PAED",
+      "report_id": "R0057",
+      "files": [
+        "stations/R0057_PAED_68a1ba22_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "1 NW Anchorage (Abbott",
+      "report_id": "R0011",
+      "files": [
+        "stations/R0011_1_NW_Anchorage_Abbott_13a1c8bb_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "SRPA2",
+      "report_id": "R0070",
+      "files": [
+        "stations/R0070_SRPA2_175ba046_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "Btw Soldotna & Sterling",
+      "report_id": "R0005",
+      "files": [
+        "stations/R0005_Btw_Soldotna_Sterling_1960f6ec_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "EDFA2",
+      "report_id": "R0034",
+      "files": [
+        "stations/R0034_EDFA2_425882a6_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "ESIA2",
+      "report_id": "R0036",
+      "files": [
+        "stations/R0036_ESIA2_5d231155_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "KMPA2",
+      "report_id": "R0047",
+      "files": [
+        "stations/R0047_KMPA2_28d61d87_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": " Eagle River 2.6 ESE",
+      "report_id": "R0015",
+      "files": [
+        "stations/R0015__Eagle_River_2_6_ESE_693de064_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "ALXA2",
+      "report_id": "R0024",
+      "files": [
+        "stations/R0024_ALXA2_0a554056_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "MORA2",
+      "report_id": "R0054",
+      "files": [
+        "stations/R0054_MORA2_33199a5f_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "TQUA2",
+      "report_id": "R0077",
+      "files": [
+        "stations/R0077_TQUA2_099faff2_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": " Eagle River 5.1 SE",
+      "report_id": "R0018",
+      "files": [
+        "stations/R0018__Eagle_River_5_1_SE_4c0653d1_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": " Palmer 2.3 SSE",
+      "report_id": "R0023",
+      "files": [
+        "stations/R0023__Palmer_2_3_SSE_91cea0c2_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "CNAA2",
+      "report_id": "R0030",
+      "files": [
+        "stations/R0030_CNAA2_63e5a749_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "FBBA2",
+      "report_id": "R0039",
+      "files": [
+        "stations/R0039_FBBA2_802a3483_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "FLDA2",
+      "report_id": "R0040",
+      "files": [
+        "stations/R0040_FLDA2_e8bbe6e7_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "PGRA2",
+      "report_id": "R0058",
+      "files": [
+        "stations/R0058_PGRA2_541ce79b_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "SBGA2",
+      "report_id": "R0064",
+      "files": [
+        "stations/R0064_SBGA2_0d854758_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": " Wasilla 4.2 WSW",
+      "report_id": "R0022",
+      "files": [
+        "stations/R0022__Wasilla_4_2_WSW_4dc4bc24_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": " Palmer 2.6 NW",
+      "report_id": "R0021",
+      "files": [
+        "stations/R0021__Palmer_2_6_NW_9149dc58_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "SCPA2",
+      "report_id": "R0065",
+      "files": [
+        "stations/R0065_SCPA2_f78995e1_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "AMBA2",
+      "report_id": "R0025",
+      "files": [
+        "stations/R0025_AMBA2_37c34f0b_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "EGHA2",
+      "report_id": "R0035",
+      "files": [
+        "stations/R0035_EGHA2_9e63f7d4_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "EYKA2",
+      "report_id": "R0038",
+      "files": [
+        "stations/R0038_EYKA2_586a258b_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "GWSA2",
+      "report_id": "R0043",
+      "files": [
+        "stations/R0043_GWSA2_09ec8a51_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "HATA2",
+      "report_id": "R0044",
+      "files": [
+        "stations/R0044_HATA2_4a26e8b8_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "MLRA2",
+      "report_id": "R0051",
+      "files": [
+        "stations/R0051_MLRA2_2a8c7109_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "MNFA2",
+      "report_id": "R0052",
+      "files": [
+        "stations/R0052_MNFA2_03f420cb_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "MNPA2",
+      "report_id": "R0053",
+      "files": [
+        "stations/R0053_MNPA2_8d85f40e_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "NVSA2",
+      "report_id": "R0056",
+      "files": [
+        "stations/R0056_NVSA2_918cbfd2_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "RHKA2",
+      "report_id": "R0060",
+      "files": [
+        "stations/R0060_RHKA2_db49a6f1_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "RHRA2",
+      "report_id": "R0061",
+      "files": [
+        "stations/R0061_RHRA2_429d9fd4_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "RHVA2",
+      "report_id": "R0062",
+      "files": [
+        "stations/R0062_RHVA2_990c3c3b_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "SNCA2",
+      "report_id": "R0067",
+      "files": [
+        "stations/R0067_SNCA2_2184a1af_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "SNIA2",
+      "report_id": "R0068",
+      "files": [
+        "stations/R0068_SNIA2_604f3e8a_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "SNLA2",
+      "report_id": "R0069",
+      "files": [
+        "stations/R0069_SNLA2_199eed65_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "SUGA2",
+      "report_id": "R0071",
+      "files": [
+        "stations/R0071_SUGA2_117f1026_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "SUVA2",
+      "report_id": "R0073",
+      "files": [
+        "stations/R0073_SUVA2_63d6099a_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "TKPA2",
+      "report_id": "R0074",
+      "files": [
+        "stations/R0074_TKPA2_4a36b992_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "TKVA2",
+      "report_id": "R0075",
+      "files": [
+        "stations/R0075_TKVA2_892ac4be_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "UPPA2",
+      "report_id": "R0079",
+      "files": [
+        "stations/R0079_UPPA2_2d37241e_01.png"
+      ]
+    },
+    {
+      "kind": "station",
+      "caption": "WHLA2",
+      "report_id": "R0080",
+      "files": [
+        "stations/R0080_WHLA2_74aea841_01.png"
+      ]
+    },
+    {
+      "kind": "map",
+      "caption": "Anchorage | NDFD sum of 8 six-hour increments | init Nov 15 00:00Z | Forecast: Nov 15 00:00Z \u2013 Nov 17 00:00Z; Observed: QC'ed storm total (accumulation boundaries unspecified)",
+      "report_id": "",
+      "files": [
+        "error_map_001.png"
+      ]
+    },
+    {
+      "kind": "scatter",
+      "caption": "NDFD sum of 8 six-hour increments | init Nov 15 00:00Z | Forecast: Nov 15 00:00Z \u2013 Nov 17 00:00Z; Observed: QC'ed storm total (accumulation boundaries unspecified)",
+      "report_id": "",
+      "files": [
+        "scatter_001.png"
+      ]
+    }
+  ]
+}

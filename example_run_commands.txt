@@ -1,0 +1,9 @@
+python verify_snowfall.py --obs SnowfallObsTEST.csv --stations ak_station_metadata.csv --config example_config.json --event-start 2026-11-15T00:00Z --event-end 2026-11-17T18:00Z --assume-event-window --endpoint-tolerance 6 --duration-tolerance 6 --nbm-init 2026-11-14T01:00Z --ndfd-init 2026-11-15T00:00Z --nearest-km 5 --duplicate-policy last --output afc_snowfall_results --plots
+
+python plot_snowfall.py --comparisons afc_snowfall_results/comparisons.csv --config example_config.json --map-view Anchorage --output anchorage_plots
+
+python plot_snowfall.py --comparisons afc_snowfall_results/comparisons.csv --config example_config.json --output stepped_plots
+
+For storm totals;
+
+python verify_snowfall.py --obs SnowfallObsTEST.csv --stations ak_station_metadata.csv --config example_config.json --storm-total --forecast-end 2026-11-18T00:00Z --nbm-accum-hours 72 --nbm-init 2026-11-14T01:00Z --ndfd-init 2026-11-15T00:00Z --nearest-km 5 --duplicate-policy last --output afc_storm_totals --plots

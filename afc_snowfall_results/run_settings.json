@@ -1,0 +1,91 @@
+{
+  "arguments": {
+    "obs": "SnowfallObsTEST.csv",
+    "prepare": null,
+    "config": "example_config.json",
+    "stations": "ak_station_metadata.csv",
+    "output": "afc_snowfall_results",
+    "init": null,
+    "nbm_init": "2026-11-14T01:00Z",
+    "ndfd_init": "2026-11-15T00:00Z",
+    "obs_units": "in",
+    "assume_event_window": true,
+    "event_start": "2026-11-15T00:00Z",
+    "event_end": "2026-11-17T18:00Z",
+    "endpoint_tolerance_h": 6.0,
+    "duration_tolerance_h": 6.0,
+    "duplicate_policy": "last",
+    "nearest_km": 5.0,
+    "plots": true,
+    "plot_no_individual": false,
+    "plot_extent": null,
+    "plot_view": null,
+    "plot_formats": [
+      "png"
+    ],
+    "plot_rows_per_page": 10,
+    "plot_percentiles": null
+  },
+  "sources": {
+    "sources": [
+      {
+        "model": "nbm",
+        "hours": 48,
+        "files": "G:/.shortcut-targets-by-id/1xyPNLLD8BzpGPg-Iz-XaKRxn4uYRK6Ay/alaska_verification/model/nbm/snow48hr/2026_11_archive.parquet",
+        "columns": [
+          "snow_p10",
+          "snow_p25",
+          "snow_p50",
+          "snow_p75",
+          "snow_p90"
+        ],
+        "units": "in"
+      },
+      {
+        "model": "nbm",
+        "hours": 72,
+        "files": "G:/.shortcut-targets-by-id/1xyPNLLD8BzpGPg-Iz-XaKRxn4uYRK6Ay/alaska_verification/model/nbm/snow72hr/2026_11_archive.parquet",
+        "columns": [
+          "snow_p10",
+          "snow_p25",
+          "snow_p50",
+          "snow_p75",
+          "snow_p90"
+        ],
+        "units": "in"
+      },
+      {
+        "model": "ndfd",
+        "hours": 6,
+        "files": "G:/.shortcut-targets-by-id/1xyPNLLD8BzpGPg-Iz-XaKRxn4uYRK6Ay/alaska_verification/model/ndfd/snow6hr/2026_11_archive.parquet",
+        "columns": [
+          "snow6hr"
+        ],
+        "units": "in"
+      }
+    ],
+    "plotting": {
+      "map_view": "Anchorage",
+      "map_views": {
+        "Anchorage": [
+          -150.3,
+          -149.2,
+          60.8,
+          61.6
+        ],
+        "Southcentral": [
+          -153,
+          -147,
+          59,
+          63
+        ],
+        "Southeast": [
+          -141,
+          -129,
+          54,
+          61
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+model,init_time,field,timing_class,window_basis,ObType,n_reports,n_archive_stations,mean_error_in,mae_in
+ndfd,2026-11-15 00:00:00+00:00,snow6hr,storm_total_period_unspecified,qc_storm_total,COOP,2,2,-2.25,2.25
+ndfd,2026-11-15 00:00:00+00:00,snow6hr,storm_total_period_unspecified,qc_storm_total,CoCoRahs,8,8,-1.375,1.425
+ndfd,2026-11-15 00:00:00+00:00,snow6hr,storm_total_period_unspecified,qc_storm_total,LSR,9,9,-2.1,2.1666666666666665
+ndfd,2026-11-15 00:00:00+00:00,snow6hr,storm_total_period_unspecified,qc_storm_total,SNOWDEPTH_SITE,57,57,0.13859649122807027,1.9877192982456142
