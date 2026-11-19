@@ -1,6 +1,0 @@
-report_id,stationname,Lat,Lon,datetime,snowfall,SWE,Precip,ObType,obs_start,obs_end,archive_station_id,include,notes,observed_in,window_basis,matched_station_id,distance_km,spatial_method,reason
-R0001,Clam Gulch,60.18,-151.43,11/16/2026 19:08,12.0,,,LSR,2026-11-15 00:00:00+00:00,2026-11-17 18:00:00+00:00,,yes,,12.0,assumed_event,,,,no_station_within_distance
-R0002,2 NE Sterling,60.54,-150.77,11/16/2026 18:23,3.5,,,LSR,2026-11-15 00:00:00+00:00,2026-11-17 18:00:00+00:00,,yes,,3.5,assumed_event,,,,no_station_within_distance
-R0007,Sterling,60.54,-150.76,11/16/2026 6:18,3.0,,,LSR,2026-11-15 00:00:00+00:00,2026-11-17 18:00:00+00:00,,yes,,3.0,assumed_event,,,,no_station_within_distance
-R0020, Trapper Creek 2.2 N,62.28062,-150.42229,,0.5,0.0,0.0,CoCoRahs,2026-11-15 00:00:00+00:00,2026-11-17 18:00:00+00:00,,yes,,0.5,assumed_event,,,,no_station_within_distance
-R0033,COVA2,58.8025,-155.56278,,2.2,,,SNOWDEPTH_SITE,2026-11-15 00:00:00+00:00,2026-11-17 18:00:00+00:00,,yes,,2.2,assumed_event,,,,no_station_within_distance
