@@ -1,4 +1,24 @@
 model,init_time,field,timing_class,window_basis,ObType,n_reports,n_archive_stations,mean_error_in,mae_in
+nbm,2026-11-14 13:00:00+00:00,snow_p10,storm_total_period_unspecified,qc_storm_total,COOP,2,2,-3.95,3.95
+nbm,2026-11-14 13:00:00+00:00,snow_p10,storm_total_period_unspecified,qc_storm_total,CoCoRahs,7,7,-3.228571428571428,3.228571428571428
+nbm,2026-11-14 13:00:00+00:00,snow_p10,storm_total_period_unspecified,qc_storm_total,LSR,9,9,-4.300000000000001,4.300000000000001
+nbm,2026-11-14 13:00:00+00:00,snow_p10,storm_total_period_unspecified,qc_storm_total,SNOWDEPTH_SITE,48,48,-2.3625000000000003,2.8958333333333335
+nbm,2026-11-14 13:00:00+00:00,snow_p25,storm_total_period_unspecified,qc_storm_total,COOP,2,2,-2.95,2.95
+nbm,2026-11-14 13:00:00+00:00,snow_p25,storm_total_period_unspecified,qc_storm_total,CoCoRahs,7,7,-2.6,2.6
+nbm,2026-11-14 13:00:00+00:00,snow_p25,storm_total_period_unspecified,qc_storm_total,LSR,9,9,-3.1222222222222222,3.1222222222222222
+nbm,2026-11-14 13:00:00+00:00,snow_p25,storm_total_period_unspecified,qc_storm_total,SNOWDEPTH_SITE,48,48,-1.2437500000000001,2.214583333333333
+nbm,2026-11-14 13:00:00+00:00,snow_p50,storm_total_period_unspecified,qc_storm_total,COOP,2,2,-0.7999999999999998,0.7999999999999998
+nbm,2026-11-14 13:00:00+00:00,snow_p50,storm_total_period_unspecified,qc_storm_total,CoCoRahs,7,7,-0.6714285714285714,0.9571428571428571
+nbm,2026-11-14 13:00:00+00:00,snow_p50,storm_total_period_unspecified,qc_storm_total,LSR,9,9,-0.2333333333333334,0.966666666666667
+nbm,2026-11-14 13:00:00+00:00,snow_p50,storm_total_period_unspecified,qc_storm_total,SNOWDEPTH_SITE,48,48,0.4729166666666667,2.0437499999999997
+nbm,2026-11-14 13:00:00+00:00,snow_p75,storm_total_period_unspecified,qc_storm_total,COOP,2,2,1.8000000000000003,1.8000000000000003
+nbm,2026-11-14 13:00:00+00:00,snow_p75,storm_total_period_unspecified,qc_storm_total,CoCoRahs,7,7,0.985714285714286,1.1
+nbm,2026-11-14 13:00:00+00:00,snow_p75,storm_total_period_unspecified,qc_storm_total,LSR,9,9,1.7111111111111112,1.9555555555555557
+nbm,2026-11-14 13:00:00+00:00,snow_p75,storm_total_period_unspecified,qc_storm_total,SNOWDEPTH_SITE,48,48,2.3979166666666667,3.11875
+nbm,2026-11-14 13:00:00+00:00,snow_p90,storm_total_period_unspecified,qc_storm_total,COOP,2,2,4.4,4.4
+nbm,2026-11-14 13:00:00+00:00,snow_p90,storm_total_period_unspecified,qc_storm_total,CoCoRahs,7,7,3.1000000000000005,3.1000000000000005
+nbm,2026-11-14 13:00:00+00:00,snow_p90,storm_total_period_unspecified,qc_storm_total,LSR,9,9,5.077777777777778,5.077777777777778
+nbm,2026-11-14 13:00:00+00:00,snow_p90,storm_total_period_unspecified,qc_storm_total,SNOWDEPTH_SITE,48,48,4.577083333333333,4.98125
 ndfd,2026-11-15 00:00:00+00:00,snow6hr,storm_total_period_unspecified,qc_storm_total,COOP,2,2,-2.25,2.25
 ndfd,2026-11-15 00:00:00+00:00,snow6hr,storm_total_period_unspecified,qc_storm_total,CoCoRahs,8,8,-1.375,1.425
 ndfd,2026-11-15 00:00:00+00:00,snow6hr,storm_total_period_unspecified,qc_storm_total,LSR,9,9,-2.1,2.1666666666666665

@@ -38,8 +38,7 @@
     "QC'ed storm totals are compared with explicitly selected forecast windows. Observation accumulation boundaries are unspecified; report valid dates are not treated as accumulation endpoints.",
     "Triangles on maps/scatterplots represent snow-depth change, not a direct new-snow measurement.",
     "Maps use report coordinates. Nearby archive-point distances are listed in individual report graphics.",
-    "Map view: Anchorage. Zoom changes the map view only; charts and percentile statistics still use all selected reports, and map colors retain the configured range. Filter stations/reports to change the verification sample.",
-    "No NBM percentile comparisons are present in this CSV. Check the NBM source columns and --nbm-init, then rerun verification."
+    "Map view: Anchorage. Zoom changes the map view only; charts and percentile statistics still use all selected reports, and map colors retain the configured range. Filter stations/reports to change the verification sample."
   ],
   "graphics": [
     {
@@ -104,6 +103,62 @@
       "report_id": "",
       "files": [
         "station_comparison_008.png"
+      ]
+    },
+    {
+      "kind": "overview",
+      "caption": "Station comparison page 9",
+      "report_id": "",
+      "files": [
+        "station_comparison_009.png"
+      ]
+    },
+    {
+      "kind": "overview",
+      "caption": "Station comparison page 10",
+      "report_id": "",
+      "files": [
+        "station_comparison_010.png"
+      ]
+    },
+    {
+      "kind": "overview",
+      "caption": "Station comparison page 11",
+      "report_id": "",
+      "files": [
+        "station_comparison_011.png"
+      ]
+    },
+    {
+      "kind": "overview",
+      "caption": "Station comparison page 12",
+      "report_id": "",
+      "files": [
+        "station_comparison_012.png"
+      ]
+    },
+    {
+      "kind": "overview",
+      "caption": "Station comparison page 13",
+      "report_id": "",
+      "files": [
+        "station_comparison_013.png"
+      ]
+    },
+    {
+      "kind": "overview",
+      "caption": "Station comparison page 14",
+      "report_id": "",
+      "files": [
+        "station_comparison_014.png"
+      ]
+    },
+    {
+      "kind": "overview",
+      "caption": "Station comparison page 15",
+      "report_id": "",
+      "files": [
+        "station_comparison_015.png"
       ]
     },
     {
@@ -716,7 +771,7 @@
     },
     {
       "kind": "map",
-      "caption": "Anchorage | NDFD sum of 8 six-hour increments | init Nov 15 00:00Z | Forecast: Nov 15 00:00Z \u2013 Nov 17 00:00Z; Observed: QC'ed storm total (accumulation boundaries unspecified)",
+      "caption": "Anchorage | NBM p10 | init Nov 14 13:00Z | Forecast: Nov 15 00:00Z \u2013 Nov 17 00:00Z; Observed: QC'ed storm total (accumulation boundaries unspecified)",
       "report_id": "",
       "files": [
         "error_map_001.png"
@@ -724,10 +779,122 @@
     },
     {
       "kind": "scatter",
-      "caption": "NDFD sum of 8 six-hour increments | init Nov 15 00:00Z | Forecast: Nov 15 00:00Z \u2013 Nov 17 00:00Z; Observed: QC'ed storm total (accumulation boundaries unspecified)",
+      "caption": "NBM p10 | init Nov 14 13:00Z | Forecast: Nov 15 00:00Z \u2013 Nov 17 00:00Z; Observed: QC'ed storm total (accumulation boundaries unspecified)",
       "report_id": "",
       "files": [
         "scatter_001.png"
+      ]
+    },
+    {
+      "kind": "map",
+      "caption": "Anchorage | NBM p25 | init Nov 14 13:00Z | Forecast: Nov 15 00:00Z \u2013 Nov 17 00:00Z; Observed: QC'ed storm total (accumulation boundaries unspecified)",
+      "report_id": "",
+      "files": [
+        "error_map_002.png"
+      ]
+    },
+    {
+      "kind": "scatter",
+      "caption": "NBM p25 | init Nov 14 13:00Z | Forecast: Nov 15 00:00Z \u2013 Nov 17 00:00Z; Observed: QC'ed storm total (accumulation boundaries unspecified)",
+      "report_id": "",
+      "files": [
+        "scatter_002.png"
+      ]
+    },
+    {
+      "kind": "map",
+      "caption": "Anchorage | NBM p50 | init Nov 14 13:00Z | Forecast: Nov 15 00:00Z \u2013 Nov 17 00:00Z; Observed: QC'ed storm total (accumulation boundaries unspecified)",
+      "report_id": "",
+      "files": [
+        "error_map_003.png"
+      ]
+    },
+    {
+      "kind": "scatter",
+      "caption": "NBM p50 | init Nov 14 13:00Z | Forecast: Nov 15 00:00Z \u2013 Nov 17 00:00Z; Observed: QC'ed storm total (accumulation boundaries unspecified)",
+      "report_id": "",
+      "files": [
+        "scatter_003.png"
+      ]
+    },
+    {
+      "kind": "map",
+      "caption": "Anchorage | NBM p75 | init Nov 14 13:00Z | Forecast: Nov 15 00:00Z \u2013 Nov 17 00:00Z; Observed: QC'ed storm total (accumulation boundaries unspecified)",
+      "report_id": "",
+      "files": [
+        "error_map_004.png"
+      ]
+    },
+    {
+      "kind": "scatter",
+      "caption": "NBM p75 | init Nov 14 13:00Z | Forecast: Nov 15 00:00Z \u2013 Nov 17 00:00Z; Observed: QC'ed storm total (accumulation boundaries unspecified)",
+      "report_id": "",
+      "files": [
+        "scatter_004.png"
+      ]
+    },
+    {
+      "kind": "map",
+      "caption": "Anchorage | NBM p90 | init Nov 14 13:00Z | Forecast: Nov 15 00:00Z \u2013 Nov 17 00:00Z; Observed: QC'ed storm total (accumulation boundaries unspecified)",
+      "report_id": "",
+      "files": [
+        "error_map_005.png"
+      ]
+    },
+    {
+      "kind": "scatter",
+      "caption": "NBM p90 | init Nov 14 13:00Z | Forecast: Nov 15 00:00Z \u2013 Nov 17 00:00Z; Observed: QC'ed storm total (accumulation boundaries unspecified)",
+      "report_id": "",
+      "files": [
+        "scatter_005.png"
+      ]
+    },
+    {
+      "kind": "map",
+      "caption": "Anchorage | NDFD sum of 8 six-hour increments | init Nov 15 00:00Z | Forecast: Nov 15 00:00Z \u2013 Nov 17 00:00Z; Observed: QC'ed storm total (accumulation boundaries unspecified)",
+      "report_id": "",
+      "files": [
+        "error_map_006.png"
+      ]
+    },
+    {
+      "kind": "scatter",
+      "caption": "NDFD sum of 8 six-hour increments | init Nov 15 00:00Z | Forecast: Nov 15 00:00Z \u2013 Nov 17 00:00Z; Observed: QC'ed storm total (accumulation boundaries unspecified)",
+      "report_id": "",
+      "files": [
+        "scatter_006.png"
+      ]
+    },
+    {
+      "kind": "percentile",
+      "caption": "NBM percentile coverage | COOP | init Nov 14 13:00Z",
+      "report_id": "",
+      "files": [
+        "percentile_coverage_001.png"
+      ]
+    },
+    {
+      "kind": "percentile",
+      "caption": "NBM percentile coverage | CoCoRahs | init Nov 14 13:00Z",
+      "report_id": "",
+      "files": [
+        "percentile_coverage_002.png"
+      ]
+    },
+    {
+      "kind": "percentile",
+      "caption": "NBM percentile coverage | LSR | init Nov 14 13:00Z",
+      "report_id": "",
+      "files": [
+        "percentile_coverage_003.png"
+      ]
+    },
+    {
+      "kind": "percentile",
+      "caption": "NBM percentile coverage | SNOWDEPTH_SITE | init Nov 14 13:00Z",
+      "report_id": "",
+      "files": [
+        "percentile_coverage_004.png"
       ]
     }
   ]

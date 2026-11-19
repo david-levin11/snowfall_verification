@@ -6,7 +6,7 @@
     "stations": "ak_station_metadata.csv",
     "output": "afc_storm_totals_48",
     "init": null,
-    "nbm_init": "2026-11-15T01:00Z",
+    "nbm_init": "2026-11-14T13:00Z",
     "nbm_accum_hours": 48,
     "storm_total": true,
     "forecast_end": "2026-11-17T00:00Z",

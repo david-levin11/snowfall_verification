@@ -1,4 +1,5 @@
-/afc*
-/anchorage*
-/stepped_plots
+afc_storm_totals_48/
+anchorage*/
+stepped_plots/
 .csv*
+afc*
